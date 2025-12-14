@@ -1,7 +1,7 @@
 import React from "react";
 
 const pets = [
-  { name: "Bunboy", weight: "3kg", img: "https://placedog.net/300/300?id=1" },
+  { name: "Bunboy", weight: "3kg", img: "https://i.pinimg.com/736x/9f/77/69/9f776960b5fe247c5cd748caaf53ccd8.jpg" },
   { name: "Happy Eater", weight: "5kg", img: "https://placedog.net/300/300?id=2" },
   { name: "Crafty Finest", weight: "7kg", img: "https://placedog.net/300/300?id=3" },
   { name: "Smokey Caten", weight: "9kg", img: "https://placedog.net/300/300?id=4" },
@@ -9,14 +9,16 @@ const pets = [
   { name: "Buddy", weight: "6kg", img: "https://placedog.net/300/300?id=6" },
   { name: "Rocky", weight: "8kg", img: "https://placedog.net/300/300?id=7" },
   { name: "Coco", weight: "5kg", img: "https://placedog.net/300/300?id=8" },
-  { name: "Bunboy", weight: "3kg", img: "https://placedog.net/300/300?id=1" },
-  { name: "Happy Eater", weight: "5kg", img: "https://placedog.net/300/300?id=2" },
-  { name: "Crafty Finest", weight: "7kg", img: "https://placedog.net/300/300?id=3" },
+
+  { name: "Bunboy", weight: "3kg", img: "https://i.pinimg.com/736x/16/f3/9e/16f39e58bede777ff5ad25e57521efb4.jpg" },
+  { name: "Happy Eater", weight: "5kg", img: "https://i.pinimg.com/736x/7b/89/86/7b8986b36c58c3b3f242cbc085fbf6c8.jpg" },
+  { name: "Crafty Finest", weight: "7kg", img: "https://i.pinimg.com/736x/a2/b8/a2/a2b8a2d427a2a3f179d4734c90682a7a.jpg" },
   { name: "Smokey Caten", weight: "9kg", img: "https://placedog.net/300/300?id=4" },
   { name: "Snowy", weight: "4kg", img: "https://placedog.net/300/300?id=5" },
   { name: "Buddy", weight: "6kg", img: "https://placedog.net/300/300?id=6" },
   { name: "Rocky", weight: "8kg", img: "https://placedog.net/300/300?id=7" },
   { name: "Coco", weight: "5kg", img: "https://placedog.net/300/300?id=8" },
+
   { name: "Bunboy", weight: "3kg", img: "https://placedog.net/300/300?id=1" },
   { name: "Happy Eater", weight: "5kg", img: "https://placedog.net/300/300?id=2" },
   { name: "Crafty Finest", weight: "7kg", img: "https://placedog.net/300/300?id=3" },
