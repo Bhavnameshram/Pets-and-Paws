@@ -6,7 +6,7 @@ function Footer() {
 
 <footer className="bg-[#E7BC6E] text-[#4A2C16] mt-16">
 
-  {/* Top Footer */}
+  
   <div className="max-w-7xl mx-auto px-6 py-12 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8">
 
     {/* Brand / About */}
@@ -42,7 +42,7 @@ function Footer() {
         <li>Rescue Support</li>
       </ul>
     </div>
-    
+
 {/* contact section */}
     
     <div>
