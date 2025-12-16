@@ -79,4 +79,4 @@ function Footer() {
   )
 }
 
-export default Foo
+export default Footer
