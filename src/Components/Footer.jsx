@@ -22,12 +22,12 @@ function Footer() {
     <div>
       <h3 className="font-bold mb-3">Quick Links</h3>
       <ul className="space-y-2 text-sm">
-        <li className="hover:underline cursor-pointer">Home</li>
-        <li className="hover:underline cursor-pointer">Adopt a Pet</li>
-        <li className="hover:underline cursor-pointer">Donate</li>
-        <li className="hover:underline cursor-pointer">Shop</li>
-        <li className="hover:underline cursor-pointer">About Us</li>
-        <li className="hover:underline cursor-pointer">Contact</li>
+        <li className="cursor-pointer">Home</li>
+        <li className="cursor-pointer">Adopt a Pet</li>
+        <li className="cursor-pointer">Donate</li>
+        <li className="cursor-pointer">Shop</li>
+        <li className="cursor-pointer">About Us</li>
+        <li className=" cursor-pointer">Contact</li>
       </ul>
     </div>
 
