@@ -69,7 +69,6 @@ function Footer() {
     <span className="cursor-pointer hover:scale-110 transition">💬</span>
   </div>
 
-  {/* Bottom Copyright */}
   <div className="text-center text-sm py-3 bg-[#B8743B] text-white">
     © 2025 Paws & Pet. All Rights Reserved.
   </div>
