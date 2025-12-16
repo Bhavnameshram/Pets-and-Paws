@@ -42,6 +42,7 @@ function Footer() {
         <li>Rescue Support</li>
       </ul>
     </div>
+    
 {/* contact section */}
     
     <div>
