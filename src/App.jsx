@@ -1,9 +1,12 @@
 import React from 'react'
-import './Components/index.jsx'
+// import Index from "./Components/Index.jsx"
+import Index from "./Components/Index.jsx"
 
 function App() {
   return (
     <div>
+      <Index />
+      {/* <Home/> */}
       
     </div>
   )
