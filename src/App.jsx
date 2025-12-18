@@ -6,7 +6,7 @@ import Feedback from './Components/Feedback.jsx'
 function App() {
   return (
     <div>   
-      <Adopt />
+      {/* <Adopt /> */}
    <Feedback />
    </div>
 
