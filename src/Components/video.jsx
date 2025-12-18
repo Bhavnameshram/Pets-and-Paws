@@ -10,7 +10,7 @@ function Video() {
         autoPlay
         muted
         loop
-        className="w-{650} h-{350px} ml-106 flex rounded-lg " />
+        className="w-{650} h-{350px} ml-106 flex rounded-lg mb-5 mb-5 " />
         </div>
         </div>
 
