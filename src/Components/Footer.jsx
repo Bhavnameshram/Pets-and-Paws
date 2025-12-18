@@ -1,17 +1,19 @@
 import React from 'react'
+import { MdOutlinePets } from "react-icons/md"
+import { FaSquareInstagram } from "react-icons/fa6";
 
 function Footer() {
   return (
     <>
 
-<footer className="bg-[#f5cf7b] text-[#4A2C16] mt-16">
+<footer className="bg-[#f5cf7b] text-[#4A2C16] ">
 
   
-  <div className="max-w-7xl mx-auto px-6 py-12 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8">
+  <div className="px-6 py-12 grid grid-cols-1 justify-evenly md:grid-cols-4 gap-8">
 
     
     <div>
-      <h2 className="text-2xl font-extrabold mb-3">Paws & Pet 🐾</h2>
+      <h2 className="text-2xl font-extrabold mb-3 flex gap-2 items-center">Paws & Pet <MdOutlinePets /></h2>
       <p className="text-sm leading-relaxed">
         Paws & Pet is dedicated to giving love, care, and forever homes to pets.
         Adopt, donate, and help us make their lives better.
