@@ -66,7 +66,7 @@ function Footer() {
   </div>
 
   {/* Social Icons */}
-  <div className="flex justify-center py-2 gap-6">
+  <div className="flex justify-center py-2 gap-6 text-4xl">
     <span className="cursor-pointer hover:scale-110 transition"><FaInstagram /></span>
     <span className="cursor-pointer hover:scale-110 transition"><RiFacebookCircleLine /></span>
   </div>
