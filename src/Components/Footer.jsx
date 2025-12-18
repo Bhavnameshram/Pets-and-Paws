@@ -51,7 +51,7 @@ function Footer() {
         <li>📍 Nagpur, India</li>
         <li>📞 +91 98765 43210</li>
         <li>✉ pawspet@gmail.com</li>
-        <li>🕒 Mon – Sat : 9 AM – 6 PM</li>
+        <li>🕒 Mon – Sat : 9 AM - 6 PM</li>
       </ul>
     </div>
 
@@ -59,15 +59,13 @@ function Footer() {
 
   {/* Quote */}
   <div className="text-center px-6 py-4 text-sm font-medium bg-[#D9A441]">
-    ❤️ “Adopt, don’t shop. They deserve to be loved too.”
+     “Adopt, don’t shop. They deserve to be loved too.”
   </div>
 
   {/* Social Icons */}
-  <div className="flex justify-center gap-6 py-4">
-    <span className="cursor-pointer hover:scale-110 transition">🐶</span>
-    <span className="cursor-pointer hover:scale-110 transition">📘</span>
-    <span className="cursor-pointer hover:scale-110 transition">📸</span>
-    <span className="cursor-pointer hover:scale-110 transition">💬</span>
+  <div className="flex justify-center py-2 gap-6">
+    <span className="cursor-pointer hover:scale-110 transition">Instageam</span>
+    <span className="cursor-pointer hover:scale-110 transition">Facebook</span>
   </div>
 
   <div className="text-center text-sm py-3 bg-[#B8743B] text-white">
