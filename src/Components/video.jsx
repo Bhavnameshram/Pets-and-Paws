@@ -9,8 +9,7 @@ function Video() {
         autoPlay
         muted
         loop
-        // controls
-        className="w-{650} h-{350px} ml-95 justify-center items-center object-cover shadow"
+        className="w-{650} h-{350px} ml-95 justify-center items-center rounded-lg mb-10"
       />
         </div>
 
