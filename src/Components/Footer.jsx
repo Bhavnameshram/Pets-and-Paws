@@ -4,7 +4,7 @@ function Footer() {
   return (
     <>
 
-<footer className="bg-[#E7BC6E] text-[#4A2C16] mt-16">
+<footer className="bg-[#f5cf7b] text-[#4A2C16] mt-16">
 
   
   <div className="max-w-7xl mx-auto px-6 py-12 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8">
