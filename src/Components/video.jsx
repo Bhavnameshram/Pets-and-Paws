@@ -3,7 +3,7 @@ import video from '../assets/WhatsApp Video 2025-12-15 at 3.20.22 PM (1).mp4'
 
 function Video() {
   return (
-    <div className=''>
+    <div className='bg-[#f5cf7b]'>
     <div className="w-full " >
       <video
         src={video}

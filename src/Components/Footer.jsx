@@ -7,7 +7,7 @@ function Footer() {
   return (
     <>
 
-<footer className="bg-[#f5cf7b] text-[#4A2C16] ">
+<footer className="bg-[#e6b565] text-[#4A2C16] ">
 
   
   <div className="px-6 py-12 grid grid-cols-1 justify-evenly md:grid-cols-4 gap-8">
