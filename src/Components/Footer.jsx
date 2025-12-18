@@ -1,6 +1,7 @@
 import React from 'react'
 import { MdOutlinePets } from "react-icons/md"
-import { FaSquareInstagram } from "react-icons/fa6";
+import { FaInstagram } from "react-icons/fa";
+import { RiFacebookCircleLine } from "react-icons/ri";
 
 function Footer() {
   return (
@@ -66,8 +67,8 @@ function Footer() {
 
   {/* Social Icons */}
   <div className="flex justify-center py-2 gap-6">
-    <span className="cursor-pointer hover:scale-110 transition">Instageam</span>
-    <span className="cursor-pointer hover:scale-110 transition">Facebook</span>
+    <span className="cursor-pointer hover:scale-110 transition"><FaInstagram /></span>
+    <span className="cursor-pointer hover:scale-110 transition"><RiFacebookCircleLine /></span>
   </div>
 
   <div className="text-center text-sm py-3 bg-[#B8743B] text-white">
