@@ -1,6 +1,7 @@
 import React from "react";
 import Album from "./Components/Album.jsx";
 import AlbumCard from "./Components/AlbumCards.jsx";
+import Card from "./Components/Card.jsx";
 import piro from "./Assets/catsssss.jpg";
 import rabit from "./Assets/rabitt.jpg";
 import dog from "./Assets/image.png";
@@ -19,7 +20,7 @@ function App() {
   return (
     <>
      <Album/>
-    <div className="h-[300vh] w-screen bg-[#f5e4b3] flex justify-center">
+    <div className="h-[350vh] w-screen bg-[#f5e4b3] flex justify-center">
       {/* Card container */}
       <div className="flex gap-10 p-10 flex-wrap justify-center">
         
@@ -27,78 +28,78 @@ function App() {
           img={piro}
           name="Piro"
           date="Adopted on: 12 Jan 2024"
-          story="Piro has brought endless joy to our lives."
+          story="Piro has brought endless joy to our lives. He is a lovely cat. very playful and affectionate."
         />
 
         <AlbumCard
         img={rabit}
           name="Bruno"
           date="Adopted on: 18 Feb 2024"
-          story="Bruno is playful and full of love."
+          story="Bruno is playful and full of love. He has become an inseparable part of our family."
         />
 
         <AlbumCard
           img={dog}
           name="Rocky"
           date="Adopted on: 5 Mar 2024"
-          story="Rocky makes every day brighter."
+          story="Rocky makes every day brighter. His loyalty and affection are unmatched."
         />
         <AlbumCard
           img={Rabit}
           name="Luna"
           date="Adopted on: 22 Apr 2024"
-          story="Luna is a bundle of joy and energy."
+          story="Luna is a bundle of joy and energy. She has filled our home with happiness."
         />
         <AlbumCard
           img={Bcat}
           name="Milo"
           date="Adopted on: 30 May 2024"
-          story="Milo has a heart full of love."
+          story="Milo has a heart full of love. He is the perfect companion."
         />
         <AlbumCard
           img={wcat}
           name="Bella"
           date="Adopted on: 15 Jun 2024"
-          story="Bella is the sweetest companion."
+          story="Bella is the sweetest companion. She has brought so much joy into our lives."
         />
         <AlbumCard
           img={Ycat}
           name="Charlie"
           date="Adopted on: 1 Jul 2024"
-          story="Charlie fills our home with happiness."
+          story="Charlie fills our home with happiness. His playful nature is infectious."
         />
         <AlbumCard
           img={birds}
           name="Daisy"
           date="Adopted on: 10 Aug 2024"
-          story="Daisy's playful spirit is contagious."
+          story="Daisy's playful spirit is contagious. She has brought so much joy to our family."
         />
         <AlbumCard
         img={Bdog}
           name="Max"
           date="Adopted on: 25 Sep 2024"
-          story="Max is our loyal and loving friend."
+          story="Max is our loyal and loving friend. He completes our family."
         />
         <AlbumCard
           img={cdog}
           name="Sadie"
           date="Adopted on: 5 Oct 2024"
-          story="Sadie brings warmth to our hearts."
+          story="Sadie brings warmth to our hearts. She is a wonderful addition to our family."
         />
         <AlbumCard
         img={bdog}
           name="Oliver"
           date="Adopted on: 15 Nov 2024"
-          story="Oliver's antics keep us entertained."
+          story="Oliver's antics keep us entertained. He is a joy to have around."
         />
         <AlbumCard
         img={snow}
           name="Molly"
           date="Adopted on: 28 Dec 2024"
-          story="Molly is a true blessing in our lives."
+          story="Molly is a true blessing in our lives. Her loving nature is heartwarming."
         />
         
-        <album />
+        <Card />
 
       </div>
     </div>
