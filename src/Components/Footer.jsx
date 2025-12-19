@@ -21,7 +21,7 @@ function Footer() {
       </p>
     </div>
 
-    {/* Quick Links */}
+    {/* Links */}
     <div>
       <h3 className="font-bold mb-3">Quick Links</h3>
       <ul className="space-y-2 text-[14px]">
@@ -34,7 +34,7 @@ function Footer() {
       </ul>
     </div>
 
-    {/* Services */}
+    {/* Services page */}
     <div>
       <h3 className="font-bold mb-3">Our Services</h3>
       <ul className="space-y-2 text-[14px]">
