@@ -1,11 +1,19 @@
 import React from 'react'
-import './Components/index.jsx'
+import Herosec from './Components/Herosec'
+import About2 from './Components/About2'
+import About3 from './Components/About3'
+import About4 from './Components/About4'
+
 
 function App() {
   return (
-    <div>
+    <>
+    <Herosec/>
+    <About2/>
+    <About3/>
+    <About4/>
       
-    </div>
+    </>
   )
 }
 
