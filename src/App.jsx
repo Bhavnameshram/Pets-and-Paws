@@ -4,6 +4,7 @@ import Video from './Components/video.jsx'
 import Button from './Components/Button.jsx'
 
 function App() {
+
   return (
     <div>
       <Button/>
@@ -11,7 +12,9 @@ function App() {
       <Footer/>
     
     </div>
-  )
+    </>
+  );
 }
 
-export default App
+export default App;
+
