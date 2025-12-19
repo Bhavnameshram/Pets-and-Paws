@@ -1,4 +1,5 @@
 import React from 'react'
+
 import Index from "./Components/Index.jsx";
 import Adopt from './Components/Adopt.jsx';
 // minal
@@ -13,11 +14,16 @@ import Button from './Components/Button.jsx';
 
 
 
+// poonam
+import './Components/index.jsx'
+import Adoption from './Components/Adoption.jsx'
+import Donation from './Components/Donate.jsx'
 function App() {
 
   return (
 
     <div>
+
       
       <Index />
       <Button/>
@@ -31,6 +37,10 @@ function App() {
 
       
       
+=======
+      <Adoption/>
+      <Donation/>
+>>>>>>> c74cb3daee06fdd988bcef8950e6e219a7dfe5c9
     </div>
   )
 }
