@@ -1,16 +1,13 @@
 import React from 'react'
-import Footer from './Components/Footer.jsx'
-import Video from './Components/video.jsx'
-import Button from './Components/Button.jsx'
-
+import './Components/index.jsx'
+import Adoption from './Components/Adoption.jsx'
+import Donation from './Components/Donate.jsx'
 function App() {
 
   return (
     <div>
-      <Button/>
-      <Video/>
-      <Footer/>
-    
+      <Adoption/>
+      <Donation/>
     </div>
     </>
   );
