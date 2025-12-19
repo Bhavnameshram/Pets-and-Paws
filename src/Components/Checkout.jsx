@@ -43,7 +43,7 @@ function Checkout({ item }) {
 
       <div className="flex justify-between text-sm mb-1">
         <span>Discount</span>
-        <span className="text-green-600">-₹{discount}</span>
+        <span className="text-green-600">{discount}</span>
       </div>
 
       <div className="flex justify-between text-sm mb-3">
