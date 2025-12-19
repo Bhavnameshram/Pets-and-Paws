@@ -4,8 +4,6 @@ import logo2 from "../assets/logo2.png";
 import { RiAccountPinCircleLine } from "react-icons/ri";
 
 
-
-
 import belt from "../assets/belt.jpg";
 import bolscracher from "../assets/bolscracher.jpg";
 import bone from "../assets/bone.jpg";
