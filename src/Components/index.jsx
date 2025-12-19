@@ -1,7 +1,7 @@
 import React from 'react'
 
 
-function index() {
+function Index() {
   return (
     <>
     <div className='h-60 w-50 bg-white'>
@@ -11,4 +11,4 @@ function index() {
   )
 }
 
-export default index
+export default Index

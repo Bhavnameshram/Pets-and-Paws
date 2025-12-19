@@ -1,12 +1,17 @@
 import React from 'react'
-// import './Components/index.jsx'
+import './Components/Index.jsx'
 // import Adopt from './Components/Adopt.jsx'
-import Shop from './Components/Shop.jsx'
+// import Index from './Components/Index.jsx'
+import Checkout from './Components/Checkout.jsx'
 
 function App() {
   return (
-  //  <Adopt />
-    <Shop />
+    <>
+    {/* <Index /> */}
+   {/* <Adopt /> */}
+    <Checkout />
+  
+    </>
   )
 }
 
