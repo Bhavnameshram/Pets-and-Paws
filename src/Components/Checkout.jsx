@@ -19,7 +19,7 @@ function Checkout({ item }) {
 
         <div className="flex flex-col">
           <h3 className="font-bold text-sm">{item.name}</h3>
-          <p className="font-semibold">₹{item.price}</p>
+          <p className="font-semibold">{item.price}</p>
 
           <select className="border rounded px-2 py-1 mt-2 w-16">
             <option>1</option>
