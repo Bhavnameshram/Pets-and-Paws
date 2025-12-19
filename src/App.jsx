@@ -1,4 +1,3 @@
-
 import React from 'react'
 import Index from "./Components/Index.jsx";
 import Adopt from './Components/Adopt.jsx';
@@ -37,4 +36,3 @@ function App() {
 }
 
 export default App;
-
