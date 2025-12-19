@@ -5,6 +5,7 @@ import { RiAccountPinCircleLine } from "react-icons/ri";
 
 
 
+
 import belt from "../assets/belt.jpg";
 import bolscracher from "../assets/bolscracher.jpg";
 import bone from "../assets/bone.jpg";
@@ -13,11 +14,16 @@ import bowl from "../assets/bowl.jpg";
 import catbowl from "../assets/catbowl.jpg";
 import cbone from "../assets/cbone.jpg";
 import kholder from "../assets/kholder.jpg";
-import Cage from "../assets/Cage.jpg";
-import LuxuriousCage from "../assets/LuxuriousCage.jpg";
-
+import Cage from "../assets/cage1.jpg";
+import steps from "../assets/steps.jpg";
+import rbelt  from "../assets/rbelt.jpg";
+import LuxuriousCage from "../assets/luxuriousCage.jpg";
+import catbed from "../assets/catbed.jpg";
+import birdbag from "../assets/birdbag.jpg";
+import  birdswing from "../assets/birdswing.jpg";
 const pets = [
   {
+
     name: "Belt",
     price: "299",
     img: belt,
@@ -54,13 +60,13 @@ const pets = [
     description: "attractive & stylish bowl for cat",
   },
   {
-    name: "Cbone",
+    name: "Cloth bone",
     price: "249",
     img: cbone,
     description: "colorful & fun toy bone for your cat",
   },
   {
-    name: "Kholder",
+    name: "Key Holder",
     price: "299",
     img: kholder,
     description: "modern & sleek key holder for pet lovers",
@@ -70,20 +76,51 @@ const pets = [
     price: "999",
     img: Cage,
     description: "spacious & comfortable cage for your bird",
+
   },
   {
-    name: "LuxuriousCage",
+    name: "Steps",
+    price: "399",
+    img: steps,
+    description: "fun to playsteps for your pet",
+  },
+  {
+    name: "Rabbit belt",
+    price: "349",
+    img: rbelt,
+    description: "cute & comfy belt for your pet"
+  },
+  {
+    name: "Luxurious Cage",
     price: "2999",
     img: LuxuriousCage,
     description: "durable & luxury cage for cute birds",
   },
+  {
+    name: "Cat Bed",
+    price: "3999",
+    img: catbed,
+    description: "comfortable & stylish bed for your cat",
+  },
+  {
+    name: "Bird Bag",
+    price: "1999",
+    img: birdbag,
+    description: "durable & stylish bag for your bird",
+  },
+  {
+    name: "Bird Swing",
+    price: "499", 
+    img: birdswing,
+    description: "fun & engaging swing for your bird",
+  },  
 ];
 
 export default function Shop() {
   return (
     <div className="min-h-screen bg-[#F5Cf7b] font-sans">
       {/* Header */}
-      <nav className='bg-[#e6b565] flex items-center justify-between px-8 py-4'>
+      <nav className='bg-[#e6b565] flex items-center justify-between px-8 py-4 sticky top-0 shadow-md'>
          <div className='flex items-center gap-3'> 
           <img src={logo2} alt='logo' className='w-15 h-15' />
           <span className='font-bold text-lg'>paws & pet</span>
@@ -95,8 +132,7 @@ export default function Shop() {
            <li className='cursor-pointer'>Shop</li>
           <li className='cursor-pointer'>About us</li>
           <li className='cursor-pointer'>Feedback</li>
-          <li className='cursor-pointer'><RiAccountPinCircleLine className="text-4xl" />
-</li>
+          <li className='cursor-pointer'><RiAccountPinCircleLine className="text-4xl" /></li>
         </ul>
       </nav>
 
