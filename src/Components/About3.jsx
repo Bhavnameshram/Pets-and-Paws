@@ -1,5 +1,5 @@
 import React from 'react'
-import img1 from '../assets/vaidehi-removebg-preview.png'
+import img1 from '../assets/vedu2-removebg-preview.png'
 import img2 from '../assets/bhavna_photo-removebg-preview.png'
 import img3 from '../assets/steffi-removebg-preview (1).png'
 import img4 from '../assets/divvya-removebg-preview.png'
@@ -45,7 +45,7 @@ function About3() {
                         className="w-48 h-48 rounded-full mx-auto mb-4 border-6 border-[#4b392d]"
                     />  
                     <h2 className=" text-2xl font-bold text-[#421f16] ">Bhavna</h2>
-                    <p className=" text-lg opacity-80 text-[#66483e]">employee</p>
+                    <p className=" text-lg opacity-80 text-[#66483e]">Employee</p>
 
                 </div>
                 <div >
@@ -55,7 +55,7 @@ function About3() {
                         className="w-48 h-48 rounded-full mx-auto mb-4 border-6 border-[#4b392d]"
                     />  
                     <h2 className=" text-2xl font-bold text-[#421f16] ">Steffi</h2>
-                    <p className=" text-lg opacity-80 text-[#66483e]">employee</p>
+                    <p className=" text-lg opacity-80 text-[#66483e]">Employee</p>
 
                 </div>
                 <div >
@@ -64,8 +64,8 @@ function About3() {
                         alt="Team Member"
                         className="w-48 h-48 rounded-full mx-auto mb-4 border-6 border-[#4b392d]"
                     />  
-                    <h2 className=" text-2xl font-bold text-[#421f16] ">Divyani</h2>
-                    <p className=" text-lg opacity-80 text-[#66483e]">employee</p>
+                    <h2 className=" text-2xl font-bold text-[#421f16] ">Devyani</h2>
+                    <p className=" text-lg opacity-80 text-[#66483e]">Employee</p>
 
                 </div>
                 <div >
@@ -75,7 +75,7 @@ function About3() {
                         className="w-48 h-48 rounded-full mx-auto mb-4 border-4 border-[#443022]"
                     />  
                     <h2 className=" text-2xl font-bold text-[#421f16] ">Achal</h2>
-                    <p className=" text-lg opacity-80 text-[#66483e]">employee</p>
+                    <p className=" text-lg opacity-80 text-[#66483e]">Employee</p>
 
                 </div>
                 <div >
@@ -85,7 +85,7 @@ function About3() {
                         className="w-48 h-48 rounded-full mx-auto mb-4 border-4 border-[#443022]"
                     />  
                     <h2 className=" text-2xl font-bold text-[#421f16] ">Dhanswi</h2>
-                    <p className=" text-lg opacity-80 text-[#66483e]">employee</p>
+                    <p className=" text-lg opacity-80 text-[#66483e]">Employee</p>
 
                 </div>
                 <div >
@@ -95,7 +95,7 @@ function About3() {
                         className="w-48 h-48 rounded-full mx-auto mb-4 border-4 border-[#443022]"
                     />  
                     <h2 className=" text-2xl font-bold text-[#421f16] ">Minal</h2>
-                    <p className=" text-lg opacity-80 text-[#66483e]">employee</p>
+                    <p className=" text-lg opacity-80 text-[#66483e]">Employee</p>
 
                 </div>
                 <div >
@@ -105,7 +105,7 @@ function About3() {
                         className="w-48 h-48 rounded-full mx-auto mb-4 border-4 border-[#443022]"
                     />  
                     <h2 className=" text-2xl font-bold text-[#421f16] ">Poonam</h2>
-                    <p className=" text-lg opacity-80 text-[#66483e]">employee</p>
+                    <p className=" text-lg opacity-80 text-[#66483e]">Employee</p>
 
                 </div>
 
