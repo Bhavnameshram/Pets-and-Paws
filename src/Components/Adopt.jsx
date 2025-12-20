@@ -91,7 +91,7 @@ export default function Adopt() {
 
       
       <header className="flex justify-between items-center px-10 py-4 bg-[#E9B75F]">
-        <h1 className="text-2xl font-bold">🐾 paws and pet</h1>
+        <h1 className="text-2xl font-bold"> paws and pet</h1>
         <nav className="space-x-6 font-semibold">
           <a href="#">Adopt</a>
           <a href="#">Donate</a>
@@ -140,3 +140,4 @@ export default function Adopt() {
         </>
   );
 }
+
