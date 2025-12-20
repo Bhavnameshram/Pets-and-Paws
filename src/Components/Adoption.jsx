@@ -30,7 +30,7 @@ function Adoption() {
 <br></br>
 <label className=' text-black font-bold text-sm pt-4 p-2'>Type Pet</label>
 {/* <input type='Type Pet' placeholder='Select Pet ' className='border-2 w-2/6 gap-2 text-black px-1 py-1 text-sm rounded '></input> */}
-<select class="border px-3 py-2 text-sm rounded px-1 py-1 w-2/6 bg-gray-50">
+<select classname="border px-3 py-2 text-sm rounded px-1 py-1 w-2/6 bg-gray-50">
       <option>Choose</option>
       <option>Dog</option>
       <option>Cat</option>

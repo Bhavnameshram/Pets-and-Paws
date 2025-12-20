@@ -1,11 +1,13 @@
 import React from 'react'
+import { Link } from "react-router-dom";
+
 import logo from '../assets/logo.2.png'
 import hero from '../assets/hero1.png'
 import photo from '../assets/photo.png'
 import { RiAccountPinCircleLine } from "react-icons/ri";
 
 
-function Home() {
+function Index() {
    return (
   <>
  
@@ -18,13 +20,33 @@ function Home() {
         </div>
 
         <ul className='flex gap-6 font-medium'>
-          <li className='cursor-pointer'>Adopt</li>
-          <li className='cursor-pointer'>Donate</li>
-           <li className='cursor-pointer'>Shop</li>
-          <li className='cursor-pointer'>About us</li>
-          <li className='cursor-pointer'>Feedback</li>
-          <li className='cursor-pointer'><RiAccountPinCircleLine className="text-4xl"/> </li>
-        </ul>
+  <li>
+    <Link to="/Adopt" className="cursor-pointer">Adopt</Link>
+  </li>
+
+  <li>
+    <Link to="/Donate" className="cursor-pointer">Donate</Link>
+  </li>
+
+  <li>
+    <Link to="/Shopping" className="cursor-pointer">Shop</Link>
+  </li>
+
+  {/* <li>
+    <Link to="/About" className="cursor-pointer">About us</Link>
+  </li> */}
+
+  <li>
+    <Link to="/Feedback" className="cursor-pointer">Feedback</Link>
+  </li>
+
+  <li>
+    <Link to="/Login" className="cursor-pointer">
+      <RiAccountPinCircleLine className="text-4xl"/>
+    </Link>
+  </li>
+</ul>
+
       </div>
 
       {/* Hero Section */}
@@ -72,4 +94,5 @@ function Home() {
     );
 }
 
-export default Home
+export default Index
+

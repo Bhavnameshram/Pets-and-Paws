@@ -1,7 +1,7 @@
 import React from 'react'
 import AlbumCard from "./AlbumCards";
 import Card from "./Card";
-import piro from "../assets/catsssss.jpg";
+import piro from "../Assets/catsssss.jpg";
 import rabit from "../Assets/rabitt.jpg";
 import image from "../Assets/image.png";
 import pinkrabit from "../Assets/pinkrabit.jpg";
@@ -23,10 +23,10 @@ function Album() {
       <div className='text-center text-6xl text-[#5c3f36] color-[#5c3f36] mt-3'>OUR FAMILY ALBUM</div>
       <div className='text-center text-2xl text-[#5c3f36] color-[#5c3f36] mt-2 align-center ml-[15%] mr-[15%]'>Browse through heart warming updates from our community. Every chirp,purr and hop tells a story of love found</div>
     </div>
-    // steffi
+    {/* steefi */}
 
 
-     <Album/>
+     
     <div className="h-[350vh] w-screen bg-[#f5e4b3] flex justify-center">
       {/* Card container */}
       <div className="flex gap-10 p-10 flex-wrap justify-center">
