@@ -4,6 +4,7 @@ import Index from './Components/Index.jsx'
 import Checkout from "./Components/Checkout.jsx";
 
 function App() {
+
   return (
     <>
       <Index />
