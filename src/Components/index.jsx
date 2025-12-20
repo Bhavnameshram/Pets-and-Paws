@@ -8,6 +8,7 @@ import { RiAccountPinCircleLine } from "react-icons/ri";
 
 
 function Index() {
+
    return (
   <>
  
@@ -37,7 +38,7 @@ function Index() {
   </li> */}
 
   <li>
-    <Link to="/Feedback" className="cursor-pointer">Feedback</Link>
+    <Link to="/Album" className="cursor-pointer">Feedback</Link>
   </li>
 
   <li>
@@ -94,5 +95,6 @@ function Index() {
     );
 }
 
-export default Index
+export default Index;
 
+  
